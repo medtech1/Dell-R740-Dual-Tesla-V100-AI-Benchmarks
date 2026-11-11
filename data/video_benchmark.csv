@@ -1,0 +1,7 @@
+model,gpu,width,height,frames,fps,steps,run_type,elapsed_seconds,measurement_method,status,notes
+LTX-Video 0.9.6 Distilled 2B,1 x V100 GPU0,512,320,25,25,8,cold,24.56,ComfyUI execution log,success,Includes initial model loading
+LTX-Video 0.9.6 Distilled 2B,1 x V100 GPU0,512,320,25,25,8,warm,2.3,ComfyUI execution log,success,"Different seed; warm, cached nodes"
+LTX-Video 0.9.6 Distilled 2B,1 x V100 GPU0,512,320,121,25,8,warm,12.44,ComfyUI execution log,success,Video ~4.84 seconds
+LTX-Video 0.9.6 Distilled 2B,1 x V100 GPU0,1280,704,121,25,8,warm A,91.8,ComfyUI history start-to-success timestamps,success,Initial high-resolution run
+LTX-Video 0.9.6 Distilled 2B,1 x V100 GPU0,1280,704,121,25,8,warm B,89.43,ComfyUI history start-to-success timestamps,success,Monitored baseline; seed 20261113
+LTX-Video 0.9.6 Distilled 2B,1 x V100 GPU0,1280,704,121,25,6,warm C,72.14,ComfyUI history start-to-success timestamps,success,Only scheduler step count changed; seed same as warm B

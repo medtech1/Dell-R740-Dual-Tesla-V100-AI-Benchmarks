@@ -1,0 +1,6 @@
+model,mode,generation_tps,method,replications,qualification
+Qwen3.8-27B,no MTP,33.7,llama-cli,1,"Earlier same-prompt baseline; reproduced context, not standardized llama-bench"
+Qwen3.8-27B,MTP n_max=2,51.1,llama-cli,2,"Repeated deterministic prompt, same 51.1 t/s each"
+Qwen3.8-27B,MTP n_max=3,48.0,llama-cli,2,Observed 47.9 and 48.1 t/s
+Gemma 4 31B,MTP n_max=4 CUDA1,77.0,llama-cli,1,Exact successful command preserved; fixed NUMA explanation prompt
+Gemma 4 31B,MTP n_max=4 CUDA1 alternate prompt,84.2,llama-cli,1,"Different prompt; highest observed, not same-prompt repeat"

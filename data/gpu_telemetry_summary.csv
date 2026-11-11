@@ -1,0 +1,3 @@
+steps,model,width,height,frames,monitoring_samples_gpu0,mean_gpu_util_pct_whole_recording,peak_gpu_util_pct,peak_vram_mib,peak_power_w,peak_temperature_c,remarks
+8,LTX-Video 0.9.6 Distilled 2B,1280,704,121,116,62.9,100,9918,261.39,66,Recording included substantial idle time before execution; average not comparable to six-step recording
+6,LTX-Video 0.9.6 Distilled 2B,1280,704,121,76,85.9,100,9918,256.88,64,Shorter monitoring duration; high average partly due to less idle time

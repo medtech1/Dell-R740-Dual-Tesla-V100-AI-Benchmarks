@@ -1,0 +1,8 @@
+model,model_quant,test,prompt_tps_mean,prompt_tps_sd,generation_tps_mean,generation_tps_sd,repetitions,gpu,threads,notes
+GPT-OSS-120B,MXFP4,"pp512/tg128; default FA, run 1",180.41,1.85,24.02,0.11,5,2 x V100,16,"CPU+GPU MoE; ngl50,ncmoe24,split5/1; between-launch variation"
+GPT-OSS-120B,MXFP4,"pp512/tg128; default FA, run 5",180.39,1.87,26.91,0.07,5,2 x V100,16,"Best observed in series, NOT stable baseline; run-to-run range 22.07-26.91"
+Qwen3.8-27B,Q4_K_M,pp512/tg128,928.45,5.11,34.45,0.01,5,2 x V100,8,"ngl99, layer split 1/1; mmap"
+Gemma 4 31B,Q4_0-it,pp512/tg128,736.74,2.03,36.84,0.01,5,2 x V100,8,"ngl99, layer split 1/1; mmap"
+Gemma 4 31B,Q4_0-it,pp2048/tg256,1085.15,0.79,36.86,0.01,5,2 x V100,8,Different prompt/generation size from pp512/tg128
+Meta Llama 3.1 8B Instruct,Q4_K_M,pp128/tg32 GPU0,1139.9,,122.11,,1,1 x V100 GPU0,,Single-GPU sanity check; not paired with dual-GPU rows
+Meta Llama 3.1 8B Instruct,Q4_K_M,pp128/tg32 GPU1,1138.89,,121.58,,1,1 x V100 GPU1,,Single-GPU sanity check; not paired with dual-GPU rows
