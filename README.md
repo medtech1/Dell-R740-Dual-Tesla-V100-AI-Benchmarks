@@ -43,7 +43,12 @@ These are **not** identical workloads or an apples-to-apples model contest. `pp`
 | Video runtime | ComfyUI **0.44.0**, PyTorch **2.14.1+cu126**, Docker, GPU 0 selected |
 | Model management | Large model files on a separate ZFS AI-DATA pool; Docker ZFS backend |
 
-The hardware uses passive server GPUs cooled by R740 chassis airflow. GPU temperatures below are *observations under the stated video workload*, not a universal cooling validation.
+The hardware uses passive server GPUs cooled by R740 chassis airflow. GPU temperatures below are *observations under the stated video workload*, not a universal cooling validation. This R740 does not have a full GPU Enablement kit, since the configuration does not have the low profile heat sinks, or low profile air flow shroud.  We found the cooling has been working very well, and therefore have not installed those parts.
+
+![Server Hardware1](assets/R740_1.JPG)
+![Server Hardware2](assets/R740_2.JPG)
+![Server Hardware3](assets/R740_3.JPG)
+![Server Hardware4](assets/TESLA_V100.JPG)
 
 ## 1. Dual-V100 LLM results
 
