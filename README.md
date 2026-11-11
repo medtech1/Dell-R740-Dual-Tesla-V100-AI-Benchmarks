@@ -3,7 +3,7 @@
 **Local inference, speculative decoding, image generation and video generation on refurbished enterprise hardware**  
 **Observed test period:** 30 October – 10 November 2026 (America/Edmonton)  
 **Report status:** Community case study, initial publication draft; data transcribed from recorded session outputs.  
-**Hardware:** Dell PowerEdge R740 · 2 × Tesla V100 PCIe 16 GB · 2 × Xeon Gold 6252 · 384 GB RAM
+**Hardware:** Dell PowerEdge R740 · 2 × Tesla V100 PCIe 16 GB · 2 × Xeon Gold 6252 · 384 GB DDR4 RAM
 
 > **Main finding:** A dual-V100 R740 can run multi-model `llama.cpp` inference, including CPU/GPU hybrid GPT-OSS-120B and speculative decoding on Qwen/Gemma. Independently, **one** V100 successfully generated a ~4.84-second, 1280 × 704 LTX video in **72.14 seconds** at six sampling steps.
 >
