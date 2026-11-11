@@ -13,7 +13,7 @@
 
 *Sample frame from the user's generated 1280 × 704 sailboat video, shown for qualitative illustration; it is not an objective image-quality metric.*
 
-https://github.com/user-attachments/assets/1f9b3b0a-bb51-4b50-8406-839fc9aafe45
+https://github.com/user-attachments/assets/3e1efa71-0567-46b2-a288-f7ec16a9a609
 
 ## At a glance
 
