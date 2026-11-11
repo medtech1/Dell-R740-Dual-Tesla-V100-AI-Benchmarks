@@ -9,9 +9,11 @@
 >
 > **Important distinction:** The LLM results below use **both V100 GPUs** (unless explicitly marked single-GPU). The ComfyUI / LTX video results use **GPU 0 only**. Do not describe video results as dual-GPU acceleration.
 
+
 https://github.com/user-attachments/assets/3e1efa71-0567-46b2-a288-f7ec16a9a609
 
 User's generated 1280 × 704 sailboat video, shown for qualitative illustration;
+
 
 ## At a glance
 
